@@ -1,4 +1,4 @@
-package CountryCity;
+package Java_Sample.CountryCity;
 
 
 public class TopCity {
