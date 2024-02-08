@@ -1,7 +1,5 @@
 package Java_Sample;
 
-
-
 import java.time.LocalDate;
 
 public abstract class Vehicle {
