@@ -1,3 +1,5 @@
+package Java_Sample;
+
 
 
 public class Automobile extends Vehicle {
