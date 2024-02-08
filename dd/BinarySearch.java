@@ -1,4 +1,4 @@
-package dd;
+package Java_Sample.dd;
 
 public class BinarySearch {
 

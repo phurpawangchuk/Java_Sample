@@ -1,4 +1,4 @@
-package dd;
+package Java_Sample.dd;
 
 import java.util.ArrayList;
 import java.util.Arrays;
