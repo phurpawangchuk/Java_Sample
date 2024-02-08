@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Problem3/|Problem7/|Problem8/|Problem5/|Problem6/" kind="src" path=""/>
+	<classpathentry kind="src" path="Problem3"/>
+	<classpathentry kind="src" path="Problem5"/>
+	<classpathentry kind="src" path="Problem6"/>
+	<classpathentry kind="src" path="Problem7"/>
+	<classpathentry kind="src" path="Problem8"/>
+	<classpathentry kind="output" path="out/production/JavaTest"/>
+</classpath>
