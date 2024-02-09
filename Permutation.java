@@ -49,7 +49,7 @@ public class Permutation {
 				System.out.print(ch[j]);
 			
 			
-			System.out.println("\n");
+			//System.out.println("\n");
 			
 			
 		}
