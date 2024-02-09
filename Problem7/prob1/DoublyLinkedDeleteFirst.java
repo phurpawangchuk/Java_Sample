@@ -1,4 +1,4 @@
-package prob1;
+package Java_Sample.Problem7.prob1;
 
 
 public class DoublyLinkedDeleteFirst {
@@ -13,24 +13,53 @@ public class DoublyLinkedDeleteFirst {
 	//the string contained in that node
 	public String deleteFirst() {
 		//implement
+		Node temp = header;
+		
+		header.next = temp;
+		temp.next = 
+		header = temp;
+		
 		return null;
 	}
 	
 	public boolean isEmpty() {
 		//implement
-		return true;
+		return header.next == null;
+//		return true;
 	}
 
 	// adds to the end of the list
 	public void addLast(String item) {
-		Node next = header;
-		while (next.next != null) {
-			next = next.next;
+		
+		if (header ==null) {
+			Node temp = new Node();
+			temp.next = null;
+			temp.previous = null;
+			temp.value = item;
+			header = temp;
+		} else {
+			
+//			Node next = header;
+//			while (next.next != null) {
+//				next = next.next;
+//			}
+//			Node n = new Node();
+//			n.value = item;
+//			next.next = n;
+//			n.previous = next;
+			
+			Node temp = header;
+			while (temp.next != null) {
+				temp = temp.next;
+			}
+			Node temp2 = new Node();
+			
+			temp2.previous = temp;
+			temp2.next = null;
+			temp2.value = item;
+			temp.next = temp2;
+			
 		}
-		Node n = new Node();
-		n.value = item;
-		next.next = n;
-		n.previous = next;
 
 	}
 	

@@ -1,4 +1,4 @@
-package LinkedList;
+package Java_Sample.LinkedList;
 
 public class Runner {
     public static void main(String[] args) {
